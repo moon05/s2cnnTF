@@ -12,6 +12,7 @@ def as_complex(x):
 	return complex_array
 
 def fftshift(x, axis):
+	n = tf.size(x)
 	return 0
 
 

@@ -1,5 +1,6 @@
 import tensorflow as tf
 import lie_learn.spaces.S3 as S3
+from functools import lrucache
 
 def so3_integrate(x):
 
